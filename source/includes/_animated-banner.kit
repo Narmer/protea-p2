@@ -1,0 +1,45 @@
+<script>
+  $(function(){
+    setInterval(function(){
+      if($('.slideshow').hasClass('selected')){
+        $('.slideshow.selected .background.shown').removeClass('shown').nextOrFirst('.background').addClass('shown');
+      }
+    },4000); // <-- set your interval here
+  });
+</script>
+
+<script src="https://cdn.rawgit.com/mattboldt/typed.js/548c6ade/dist/typed.min.js"></script>
+<script>
+  $(function(){
+    $(".typed").typed({
+      strings: ["Agent hyperlubrifiant<br>…protège tous les moteurs", "élimination des bactéries…<br>rapide, efficace, durable", "Hausse des performances…<br>baisse de la consommation<br>…et diminution des coûts", "Hausse de la production…<br>et une meilleure qualité", "La réponse aux problèmes des carburants", "Baisse des émissions de gaz…<br>réduction de la pollution"],
+      typeSpeed: 50,
+      backDelay: 2500,
+      loop: true,
+      shuffle: false
+    });
+  });
+</script>
+
+<section class="slide scenic fade slideshow">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+
+        <div class="fix-12-12">
+          <div class="fix-7-12 left toLeft">
+            <h1 class="uppercase ae-1"><span class="typed">.</span></h1>
+            <a class="button lime crop ae-3" href="./p550-traitement-diesel.html">Obtenir plus d'informations</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- your background images are here -->
+  <div class="background shown" style="background-image:url(https://res.cloudinary.com/proteap2/image/upload/v1574517787/Banners/centrale_iqzxjq.jpg)"></div>
+  <div class="background" style="background-image:url(https://res.cloudinary.com/proteap2/image/upload/v1574517782/Banners/moto_wkbqnu.jpg)"></div>
+  <div class="background" style="background-image:url(https://res.cloudinary.com/proteap2/image/upload/v1574517782/Banners/jetski_oiw7r0.jpg)"></div>
+  <div class="background" style="background-image:url(https://res.cloudinary.com/proteap2/image/upload/v1574517773/Banners/cargo_dpwtgr.jpg)"></div>
+  <div class="background" style="background-image:url(https://res.cloudinary.com/proteap2/image/upload/v1574517787/Banners/yachts_wkovfp.jpg)"></div>
+</section>

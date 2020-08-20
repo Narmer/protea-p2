@@ -1,0 +1,296 @@
+<!-- @include /source/includes/_head-up.kit -->
+
+		<!-- Page Title -->
+		<title>Nos clients nous font confiance</title>
+
+
+<!-- @include /source/includes/_head-bottom.kit -->
+
+<!-- @include /source/includes/_svg-library.kit -->
+
+<!-- @include /source/includes/_navigation-menu.kit -->
+
+<!-- @include /source/includes/_sidebar.kit -->
+
+<script>
+$(function(){
+	var numberOfItemsToShow = 4;
+
+	$('.showMore').click(function() {
+
+		if (window.isScroll) {
+			$('html, body').animate({ scrollTop: $(".showMore").offset().top }, 500);
+		} else {
+			$('.content').animate({ scrollTop: $(".showMore").position().top }, 500);
+		}
+
+		if ($('.items-container li.hidden').length <= numberOfItemsToShow){
+			$('.showMore').remove();
+		}
+
+		$('.items-container li.hidden:lt('+numberOfItemsToShow+')').removeClass('hidden').find('.done').removeClass('done');
+	});
+});
+</script>
+
+<style>
+	.items-container li.hidden {
+		display: none;
+	}
+</style>
+
+<section class="slide whiteSlide">
+	<div class="content">
+		<div class="container">
+			<div class="wrap top">
+
+				<div class="fix-10-12 margin-top-10 toCenter">
+					<h1 class="ae-1">Lettres de recommandation</h1>
+				</div>
+				<div class="fix-12-12">
+					<ul class="grid later fixedSpaces equal left margin-top-5 items-container controller popupTrigger" data-popup-id="items-popup" data-slider-id="items-popup" >
+						<li class="col-3-12 ae-3 fromCenter">
+							<a href="#" class="box-67">
+								<div class="thumbnail-67">
+									<img src="https://res.cloudinary.com/proteap2/image/upload/v1582466856/lettres/Scanned-image_11-10-2019-113430_ivl6ao.pdf" class="wide"/>
+								</div>
+								<div class="name-67 equalElement table wide">
+									<div class="cell">
+										<div class="category-67">11 octobre 2019</div>
+										<div class="title-67">Régie Communautaire de transport</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="col-3-12 ae-3 fromCenter">
+							<a href="#" class="box-67">
+								<div class="thumbnail-67">
+									<img src="https://res.cloudinary.com/proteap2/image/upload/v1581889601/lettres/lettre-recommandation-STAC_aatkxb.pdf" class="wide"/>
+								</div>
+								<div class="name-67 equalElement table wide">
+									<div class="cell">
+										<div class="category-67">28 janvier 2019</div>
+										<div class="title-67">STAC</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="col-3-12 ae-3 fromCenter">
+							<a href="#" class="box-67">
+								<div class="thumbnail-67">
+									<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491129/lettres/lettre-edf-guadeloupe-23112011_zudfy7.pdf" class="wide"/>
+								</div>
+								<div class="name-67 equalElement table wide">
+									<div class="cell">
+										<div class="category-67">23 novembre 2011</div>
+										<div class="title-67">EDF Guadeloupe</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="col-3-12 ae-4 fromCenter">
+							<a href="#" class="box-67">
+								<div class="thumbnail-67">
+									<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491086/lettres/lettre-volvo-trucks-sav-24112008_tplimv.pdf" class="wide"/>
+								</div>
+								<div class="name-67 equalElement table wide">
+									<div class="cell">
+										<div class="category-67">2 novembre 2008</div>
+										<div class="title-67">Volvo Trucks SAV</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="col-3-12 ae-5 fromCenter">
+							<a href="#" class="box-67">
+								<div class="thumbnail-67">
+									<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491143/lettres/lettre-renault-trucks-122008_c4x7vb.pdf" class="wide"/>
+								</div>
+								<div class="name-67 equalElement table wide">
+									<div class="cell">
+										<div class="category-67">Décembre 2008</div>
+										<div class="title-67">Renault Trucks</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="col-3-12 ae-5 fromCenter">
+							<a href="#" class="box-67">
+								<div class="thumbnail-67">
+									<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491151/lettres/lettre-renault-trucks-sav-03052011_awmxre.pdf" class="wide"/>
+								</div>
+								<div class="name-67 equalElement table wide">
+									<div class="cell">
+										<div class="category-67">3 mai 2011</div>
+										<div class="title-67">Renault Trucks SAV</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="col-3-12 ae-5 fromCenter">
+							<a href="#" class="box-67">
+								<div class="thumbnail-67">
+									<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491088/lettres/lettre-tom-03112008_oifeic.pdf" class="wide"/>
+								</div>
+								<div class="name-67 equalElement table wide">
+									<div class="cell">
+										<div class="category-67">3 décembre 2008</div>
+										<div class="title-67">T.O.M.</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="col-3-12 ae-5 fromCenter">
+							<a href="#" class="box-67">
+								<div class="thumbnail-67">
+									<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491167/lettres/lettre-chaudiere-socara-03092008_uivbys.pdf" class="wide"/>
+								</div>
+								<div class="name-67 equalElement table wide">
+									<div class="cell">
+										<div class="category-67">3 septembre 2008</div>
+										<div class="title-67">Socara</div>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li class="col-3-12 ae-5 fromCenter">
+							<a href="#" class="box-67">
+								<div class="thumbnail-67">
+									<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491147/lettres/lettre-aux-delices-de-regale-12122007_geib0y.pdf" class="wide"/>
+								</div>
+								<div class="name-67 equalElement table wide">
+									<div class="cell">
+										<div class="category-67">12 décembre 2007</div>
+										<div class="title-67">Aux délices de régale</div>
+									</div>
+								</div>
+							</a>
+						</li>
+
+						<li class="col-4-12 hidden">
+							<a href="#" class="box-67">
+								<div class="thumbnail-67">
+									<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491173/lettres/volvo-trucks-france-17032003_aoxfdf.pdf" class="wide"/>
+								</div>
+								<div class="name-67 equalElement table wide">
+									<div class="cell">
+										<div class="category-67">17 mars 2003</div>
+										<div class="title-67">Volvo Trucks France</div>
+									</div>
+								</div>
+							</a>
+						</li>
+
+						<li class="col-4-12 hidden">
+							<a href="#" class="box-67">
+								<div class="thumbnail-67">
+									<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491148/lettres/volvo-trucks-france-17032003-2_jldwox.pdf" class="wide"/>
+								</div>
+								<div class="name-67 equalElement table wide">
+									<div class="cell">
+										<div class="category-67">17 mars 2003</div>
+										<div class="title-67">Volvo Trucks France (2)</div>
+									</div>
+								</div>
+							</a>
+						</li>
+
+						<li class="col-4-12 hidden">
+							<a href="#" class="box-67">
+								<div class="thumbnail-67">
+									<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491171/lettres/affichette-volvo_juvoqi.pdf" class="wide"/>
+								</div>
+								<div class="name-67 equalElement table wide">
+									<div class="cell">
+										<div class="category-67">17 mars 2003</div>
+										<div class="title-67">Volvo Trucks France (3)</div>
+									</div>
+								</div>
+							</a>
+						</li>
+
+						<li class="col-4-12 hidden">
+							<a href="#" class="box-67">
+								<div class="thumbnail-67">
+									<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491165/lettres/lettre-sailing-style_qlhzed.jpg" class="wide"/>
+								</div>
+								<div class="name-67 equalElement table wide">
+									<div class="cell">
+										<div class="category-67">---</div>
+										<div class="title-67">Sailing Style</div>
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<div class="center"><a class="button round small gray showMore ae-6">Afficher plus de lettres<i class="material-icons right">arrow_downward</i></a></div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="popup animated" data-popup-id="items-popup">
+	<div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+	<div class="content">
+		<div class="container">
+			<div class="wrap spaces">
+
+				<ul class="slider fix-10-12 clickable popupContent ae-1 fromCenter disableSelect" data-slider-id="items-popup">
+					<li class="selected">
+						<img src="https://res.cloudinary.com/proteap2/image/upload/v1581889601/lettres/lettre-recommandation-STAC_aatkxb.pdf" class="wide"/>
+					</li>
+					<li>
+						<img src="https://res.cloudinary.com/proteap2/image/upload/v1582466856/lettres/Scanned-image_11-10-2019-113430_ivl6ao.pdf" class="wide"/>
+					</li>
+					<li>
+						<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491129/lettres/lettre-edf-guadeloupe-23112011_zudfy7.pdf" class="wide"/>
+					</li>
+					<li>
+						<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491086/lettres/lettre-volvo-trucks-sav-24112008_tplimv.pdf" class="wide"/>
+					</li>
+
+					<li>
+						<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491143/lettres/lettre-renault-trucks-122008_c4x7vb.pdf" class="wide"/>
+					</li>
+					<li>
+						<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491151/lettres/lettre-renault-trucks-sav-03052011_awmxre.pdf" class="wide"/>
+					</li>
+					<li>
+						<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491088/lettres/lettre-tom-03112008_oifeic.pdf" class="wide"/>
+					</li>
+
+					<li>
+						<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491167/lettres/lettre-chaudiere-socara-03092008_uivbys.pdf" class="wide"/>
+					</li>
+					<li>
+						<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491147/lettres/lettre-aux-delices-de-regale-12122007_geib0y.pdf" class="wide"/>
+					</li>
+					<li>
+						<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491173/lettres/volvo-trucks-france-17032003_aoxfdf.pdf" class="wide"/>
+					</li>
+					<li>
+						<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491148/lettres/volvo-trucks-france-17032003-2_jldwox.pdf" class="wide"/>
+					</li>
+					<li>
+						<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491171/lettres/affichette-volvo_juvoqi.pdf" class="wide"/>
+					</li>
+					<li>
+						<img src="https://res.cloudinary.com/proteap2/image/upload/v1573491165/lettres/lettre-sailing-style_qlhzed.jpg" class="wide"/>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- @include /source/includes/_footer.kit -->
+
+<!-- @include /source/includes/_panel-bottom.kit -->
+
+<!-- @include /source/includes/_share-windows.kit -->
