@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/.gitignore",
+		"oF": 0
+		},
 	"/docs": {
 		"ft": 65536,
 		"oA": 1,
@@ -725,6 +733,14 @@
 		"oAP": "/docs/includes/docs/_svg-library.html",
 		"oF": 0
 		},
+	"/source/includes/legals/_legals.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/docs/includes/legals/docs/_legals.html",
+		"oF": 0
+		},
 	"/source/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -784,6 +800,14 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"/source/mentions-legales.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/mentions-legales.html",
+		"oF": 2
 		},
 	"/source/p231-fiche-produit.kit": {
 		"cB": 0,
