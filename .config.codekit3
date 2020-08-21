@@ -741,6 +741,14 @@
 		"oAP": "/docs/includes/legals/docs/_legals.html",
 		"oF": 0
 		},
+	"/source/includes/policy/_policy.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/docs/includes/policy/docs/_policy.html",
+		"oF": 0
+		},
 	"/source/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -855,6 +863,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/docs/p550-traitement-diesel.html",
+		"oF": 2
+		},
+	"/source/politiques-confidentialite.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/politiques-confidentialite.html",
 		"oF": 2
 		},
 	"/source/problematiques-carburants.kit": {
