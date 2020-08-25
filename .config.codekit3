@@ -705,6 +705,14 @@
 		"oAP": "/docs/includes/docs/_animated-banner.html",
 		"oF": 0
 		},
+	"/source/includes/_favicons.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/docs/includes/docs/_favicons.html",
+		"oF": 0
+		},
 	"/source/includes/_footer.kit": {
 		"cB": 0,
 		"ft": 2048,
