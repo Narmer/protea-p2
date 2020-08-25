@@ -23,6 +23,50 @@
 		"oAP": "/docs/docs",
 		"oF": 0
 		},
+	"/source/apple-touch-icon-114-precomposed.png": {
+		"ft": 32768,
+		"iS": 8197,
+		"oA": 0,
+		"oAP": "/docs/apple-touch-icon-114-precomposed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/apple-touch-icon-144-precomposed.png": {
+		"ft": 32768,
+		"iS": 12828,
+		"oA": 0,
+		"oAP": "/docs/apple-touch-icon-144-precomposed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/apple-touch-icon-57-precomposed.png": {
+		"ft": 32768,
+		"iS": 3143,
+		"oA": 0,
+		"oAP": "/docs/apple-touch-icon-57-precomposed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/source/apple-touch-icon-72-precomposed.png": {
+		"ft": 32768,
+		"iS": 4381,
+		"oA": 0,
+		"oAP": "/docs/apple-touch-icon-72-precomposed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/source/assets/img/banners/cargo.jpg": {
 		"ft": 16384,
 		"iS": 284680,
@@ -636,6 +680,14 @@
 		"oA": 0,
 		"oAP": "/docs/faq.html",
 		"oF": 2
+		},
+	"/source/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/docs/favicon.ico",
+		"oF": 0
 		},
 	"/source/ils-font-confiance.kit": {
 		"cB": 0,
